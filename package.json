@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lblair16/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Lucas Blair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lblair16/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/lblair16/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
